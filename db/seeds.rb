@@ -49,7 +49,7 @@ Integrante.create(
   :usuario => 'matute',
   :nombre => 'Matias Bonecco',
   :titulo => 'Estudiante',
-  :rol => 'Diseñador',
+  :rol => 'Artista Conceptual',
   :bios => '',
   :sexo => true,
   :linkedin => '',
