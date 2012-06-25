@@ -23,11 +23,16 @@
   </head>
   <body>
     <div id="main" role="main" class="container">
-
 <div class="hero-unit">
-  <%= image_tag 'logo.svg' %>
-  <p><%= t('inicio.lema') %></p>
+  <div class="row">
+    <div class="span6 offset2">
+      <%= image_tag 'logo.svg' %>
+    </div>
+  </div>
+  <br>
+  <h2 id="lema"><%= t('inicio.lema') %></h2>
 </div>
+
 
       <div class="content">
         <% if notice.present? %>

@@ -51,3 +51,7 @@ footer p {
 img {
   max-width: 100%;
 }
+
+#lema {
+  text-align: justify;
+}
