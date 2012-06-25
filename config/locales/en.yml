@@ -1,5 +1,25 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  inicio:
+    construccion: "Page under construction"
+    lema: "Nos apasiona lo que estas necesitando. Somos un grupo de profesionales de diversas disciplinas trabajando en equipo para generar los mejores resultados."
+    libre:
+      titulo: "Libre"
+      texto: "Brindamos el servicio de analisis y asistencia para migraciones al uso de software libre tanto para personas individuales como para pequeñas, medianas y grandes empresas."
+    letra:
+      titulo: "Letra"
+      texto: "Ofrecemos servicios de revision, correccion, redaccion, adaptacion y transcripcion de todo tipo de textos escritos o destinados a la oralidad, ya sean de indole academica, empresarial, artistica, juridica, periodistica, publicitaria, entre otras posibles."
+    juega:
+      titulo: "Juega"
+      texto: "Nos apasiona juegar, por eso elegimos dedicarnos a crear juegos para todas las edades, desde sencillos pasatiempos hasta intrincadas aventuras graficas donde seguir el hilo de la historia y resolver entretenidos acertijos para llegar a la meta final, divertirse."
+    visual:
+      titulo: "Visual"
+      texto: "Ofrecemos la posibilidad de explayar visualmente todos sus objetivos, ya sea en logos, tarjetas personales, folletos, entre otros, tomando como base su objetivo esencial y poniendo en el campo propagandistico toda nuestra experiencia en la materia visual."
+    web:
+      titulo: "Web"
+      texto: "Creamos tu pagina web para mostrarle al mundo lo que vos quieras"
+    legal:
+      titulo: "Legal"
+      texto: "Brindamos asesoria en los aspectos legales de diversas indoles."
+    arte:
+      titulo: "Arte"
+      texto: "Bla Bla Bla"

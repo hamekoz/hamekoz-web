@@ -16,15 +16,19 @@
 
     <%= stylesheet_link_tag "application", :media => "all" %>
 
-    <link href="images/favicon.ico" rel="shortcut icon">
-    <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-    <link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="favicon.png" rel="shortcut icon" type="image/png" />
+    <link href="apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
   </head>
   <body>
-    <%= render 'navbar' %>
-
     <div id="main" role="main" class="container">
+
+<div class="hero-unit">
+  <%= image_tag 'logo.svg' %>
+  <p><%= t('inicio.lema') %></p>
+</div>
+
       <div class="content">
         <% if notice.present? %>
         <div id="notice" class="alert alert-success fade in" data-alert="alert">
@@ -42,7 +46,7 @@
 
         <%= yield %>
       </div><!--/content-->
-    </div> <!-- /container -->
+    </div> <!-- /container -->	
 
     <%= render 'footer' %>
 

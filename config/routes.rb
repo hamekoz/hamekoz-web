@@ -5,9 +5,7 @@ Hamekoz::Application.routes.draw do
   root :to => "application#inicio"
 
   match '/inicio' => "application#inicio", :as => "inicio"
-  match '/presentacion' => "application#presentacion", :as => "presentacion"
   match '/quienes_somos' => "application#quienes_somos", :as => "quienes_somos"
-  match '/acerca_de' => "application#acerca_de", :as => "acerca_de"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

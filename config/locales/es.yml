@@ -1,0 +1,25 @@
+es:
+  inicio:
+    construccion: "Sitio en construcción"
+    lema: "Nos apasiona lo que estás necesitando. Somos un grupo de profesionales de diversas disciplinas trabajando en equipo para generar los mejores resultados."
+    libre:
+      titulo: "Libre"
+      texto: "Nos apasiona el software libre... por eso te brindamos servicios de análisis y asistencia para migraciones al uso de software libre tanto para personas individuales como para pequeñas, medianas y grandes empresas."
+    letra:
+      titulo: "Letra"
+      texto: "Nos apasiona la escritura... por eso te ofrecemos servicios de revisión, corrección, redacción, adaptación y transcripción de todo tipo de textos escritos o destinados a la oralidad, ya sean de índole académica, empresarial, artística, jurídica, periodística, publicitaria, entre otras posibles."
+    juega:
+      titulo: "Juega"
+      texto: "Nos apasiona jugar... por eso nos dedicamos a crear juegos para todas las edades, desde sencillos pasatiempos hasta intrincadas aventuras graficas donde seguir el hilo de la historia y resolver entretenidos acertijos para llegar a la meta final, divertirse."
+    visual:
+      titulo: "Visual"
+      texto: "Nos apasiona crear... por eso procuramos darte la posibilidad de explayar visualmente todos tus objetivos, ya sea en logos, tarjetas personales, folletos, entre otros, tomando como base tu idea esencial y poniendo en el campo publicitario toda nuestra experiencia en materia visual."
+    web:
+      titulo: "Web"
+      texto: "Nos apasiona estar conectados... por eso creamos tu página web para mostrarle al mundo lo que vos quieras"
+    legal:
+      titulo: "Legal"
+      texto: "Brindamos asesoria en los aspectos legales de diversas indoles."
+    arte:
+      titulo: "Arte"
+      texto: "Bla Bla Bla"
