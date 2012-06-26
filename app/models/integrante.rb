@@ -9,4 +9,8 @@ class Integrante < ActiveRecord::Base
                   :twitter,
                   :google,
                   :facebook
+                  
+  def foto
+    "#{usuario}.png"
+  end
 end
