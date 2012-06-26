@@ -60,3 +60,7 @@ img {
 h1.lema {
   font-size: 45px;
 }
+
+.caption {
+  text-align: center;
+}
