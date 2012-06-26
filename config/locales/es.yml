@@ -1,7 +1,8 @@
 es:
   inicio:
     construccion: "Sitio en construcción"
-    lema: "Nos apasiona lo que estás necesitando. Somos un grupo de profesionales de diversas disciplinas trabajando en equipo para generar los mejores resultados."
+    lema: "Nos apasiona lo que estás necesitando."
+    descripcion: "Somos un grupo de profesionales de diversas disciplinas trabajando en equipo para generar los mejores resultados."
     libre:
       titulo: "Libre"
       texto: "Nos apasiona el software libre... por eso te brindamos servicios de análisis y asistencia para migraciones al uso de software libre tanto para personas individuales como para pequeñas, medianas y grandes empresas."

@@ -52,6 +52,11 @@ img {
   max-width: 100%;
 }
 
-#lema {
-  text-align: justify;
+
+.lema {
+  text-align: center;
+}
+
+h1.lema {
+  font-size: 45px;
 }
