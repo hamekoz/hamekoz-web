@@ -21,7 +21,7 @@ Integrante.create(
 
 Integrante.create(
   :usuario => 'yadia',
-  :nombre => 'Isis Yadia Parada',
+  :nombre => 'Yadia Parada Slame',
   :titulo => 'Profesora en Letras',
   :rol => 'Co-Fundadora',
   :bios => '',
@@ -50,6 +50,32 @@ Integrante.create(
   :nombre => 'Matias Bonecco',
   :titulo => 'Estudiante',
   :rol => 'Artista Conceptual',
+  :bios => '',
+  :sexo => true,
+  :linkedin => '',
+  :twitter => '',
+  :google => '',
+  :facebook => ''
+)
+
+Integrante.create(
+  :usuario => 'adriel',
+  :nombre => 'Adriel Hernan Caramichos',
+  :titulo => 'Estudiante Universitario',
+  :rol => 'Analista Programador',
+  :bios => '',
+  :sexo => true,
+  :linkedin => '',
+  :twitter => '',
+  :google => '',
+  :facebook => ''
+)
+
+Integrante.create(
+  :usuario => 'lea',
+  :nombre => 'Leandro Temperoni',
+  :titulo => 'Estudiante Universitario',
+  :rol => 'Programador',
   :bios => '',
   :sexo => true,
   :linkedin => '',

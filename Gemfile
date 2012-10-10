@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -10,6 +10,7 @@ gem 'json'
 #gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git',
                                :branch => 'static'
+gem 'yaml_db'
 
 # Gemas usadas solo en desarrollo
 group :development, :test do
@@ -26,6 +27,7 @@ end
 # Gemas necesarias para produccion
 group :production do
   gem 'pg'
+#  gem 'therubyracer-heroku', :platform => :ruby
 #  gem 'thin'
 end
 

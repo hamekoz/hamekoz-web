@@ -33,9 +33,6 @@
   <h1 class="lema"><%= t('inicio.lema') %></h1>
   <h3 class="lema"><%= t('inicio.descripcion') %></h3>
 </div>
-
-
-      <div class="content">
         <% if notice.present? %>
         <div id="notice" class="alert alert-success fade in" data-alert="alert">
           <a class="close" href="#">×</a>
@@ -51,7 +48,6 @@
         <% end %>
 
         <%= yield %>
-      </div><!--/content-->
     </div> <!-- /container -->	
 
     <%= render 'footer' %>

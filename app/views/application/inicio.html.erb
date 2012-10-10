@@ -1,33 +1,47 @@
+      <div class="content well">
 <div class="alert alert-info">
   <%= t('inicio.construccion') %>
 </div>
       
 <!-- Example row of columns -->
-<div class="row">
+<div class="row-fluid">
   <div class="span4">
     <h2>Hamekoz <em><%= t('inicio.libre.titulo') %></em></h2>
-     <p><%= t('inicio.libre.texto') %></p>
+    <%= mail_to "libre@hamekoz.com.ar" %>
+    <p><%= t('inicio.libre.texto') %></p>
 <!--    <p><a href="#" class="btn">View details »</a></p>-->
   </div>
   <div class="span4">
     <h2>Hamekoz <em><%= t('inicio.letra.titulo') %></em></h2>
-     <p><%= t('inicio.letra.texto') %></p>
+    <%= mail_to "letra@hamekoz.com.ar" %>
+    <p><%= t('inicio.letra.texto') %></p>
 <!--    <p><a href="#" class="btn">View details »</a></p>-->
  </div>
   <div class="span4">
     <h2>Hamekoz <em><%= t('inicio.juega.titulo') %></em></h2>
+    <%= mail_to "juega@hamekoz.com.ar" %>
     <p><%= t('inicio.juega.texto') %></p>
 <!--    <p><a href="#" class="btn">View details »</a></p>-->
   </div>
-  <div class="span6">
+</div>
+<div class="row-fluid">
+  <div class="span4">
     <h2>Hamekoz <em><%= t('inicio.visual.titulo') %></em></h2>
+    <%= mail_to "visual@hamekoz.com.ar" %>
     <p><%= t('inicio.visual.texto') %></p>
 <!--    <p><a href="#" class="btn">View details »</a></p>-->
   </div>
-  <div class="span6">
+  <div class="span4">
     <h2>Hamekoz <em><%= t('inicio.web.titulo') %></em></h2>
+    <%= mail_to "web@hamekoz.com.ar" %>
     <p><%= t('inicio.web.texto') %></p>
 <!--    <p><a href="#" class="btn">View details »</a></p>-->
   </div>
+  <div class="span4">
+    <h2>Hamekoz <em><%= t('inicio.app.titulo') %></em></h2>
+    <%= mail_to "soft@hamekoz.com.ar" %>
+    <p><%= t('inicio.app.texto') %></p>
+<!--    <p><a href="#" class="btn">View details »</a></p>-->
+  </div>
 </div>
-
+      </div><!--/content-->

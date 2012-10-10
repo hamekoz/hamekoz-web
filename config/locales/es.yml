@@ -18,6 +18,9 @@ es:
     web:
       titulo: "Web"
       texto: "Nos apasiona estar conectados... por eso creamos tu página web para mostrarle al mundo lo que vos quieras"
+    app:
+      titulo: "Soft"
+      texto: "Nos apasiona hacer cosas utiles... por eso brindamos aplicaciones para facilitar tu vida"
     legal:
       titulo: "Legal"
       texto: "Brindamos asesoria en los aspectos legales de diversas indoles."
