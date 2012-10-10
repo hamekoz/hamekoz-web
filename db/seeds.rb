@@ -75,7 +75,7 @@ Integrante.create(
   :usuario => 'lea',
   :nombre => 'Leandro Temperoni',
   :titulo => 'Estudiante Universitario',
-  :rol => 'Programador',
+  :rol => 'Programador Java',
   :bios => '',
   :sexo => true,
   :linkedin => '',
