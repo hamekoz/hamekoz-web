@@ -1,17 +1,5 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery
-
-  def inicio
-    respond_to do |format|
-      format.html # index.html.erb
-    end
-  end
-
-  def quienes_somos
-    @integrantes = Integrante.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-    end
-  end
+  # Prevent CSRF attacks by raising an exception.
+  # For APIs, you may want to use :null_session instead.
+  protect_from_forgery with: :exception
 end
